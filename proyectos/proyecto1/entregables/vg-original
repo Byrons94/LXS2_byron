@@ -1,0 +1,21 @@
+  --- Volume group ---
+  VG Name               centos
+  System ID             
+  Format                lvm2
+  Metadata Areas        1
+  Metadata Sequence No  3
+  VG Access             read/write
+  VG Status             resizable
+  MAX LV                0
+  Cur LV                2
+  Open LV               2
+  Max PV                0
+  Cur PV                1
+  Act PV                1
+  VG Size               7,51 GiB
+  PE Size               4,00 MiB
+  Total PE              1922
+  Alloc PE / Size       1912 / 7,47 GiB
+  Free  PE / Size       10 / 40,00 MiB
+  VG UUID               OIqBL3-osCg-iovI-gEs4-Ll6u-PeHq-9loQsW
+   
