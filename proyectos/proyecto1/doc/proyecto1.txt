@@ -1,0 +1,51 @@
+Descripción del trabajo
+1. (10%) Instalar una máquina virtual con la última versión de Centos 7 utilizando virtualbox (si desea utilizar otro sistema de virtualización me debe contactar primero). Esta máquina debe ser instalada con los pasos por defecto para instalar el sistema con LVM. Esto crea tres particiones:
+
+Partición                                         Sistema
+
+/boot                                     ---->   Linux
+
+/dev/mapper/<nombre-de-maquina>-root      ---->   Linux LVM
+
+/dev/mapper/<nombre-de-maquina>-swap      ---->   Linux LVM
+
+Palabras clave para la búsqueda en google:
+
+How to install centos using lvm
+install centos lvm
+intall centos lvm virtualbox
+2. (10%) Luego de instalar se debe investigar como agregar un disco extra al sistema de virtualización utilizado. Esta unidad puede ser del tamaño que desee. Se recomienda usar 1 GB ya que el objetivo es practicar LVM.
+
+Nota: La búsqueda en google depende del sistema de virtualización utilizado.
+
+3. (10%) Guardar la salida de los comandos "display" de LVM para obtener la información de los volúmenes físicos, lógicos y grupos presentes antes de realizar cualquier cambio. Se recomienda revisar la guía de LVM presente en el sitio del curso antes de realizar esta sección.
+
+5.(15%) Particionar el disco recién agregado al sistema en un formato apropiado para LVM. Recordad utilizar el comando fdisk para este propósito.
+
+4. (15%) Extender el grupo de volúmenes creado por centos a la hora de la instalación utilizando el disco recién agregado de 1 GB. El nombre del grupo se puede obtener a la hora de ejecutar los comandos de "display".
+
+5. (20%) Luego de extender el grupo de volúmenes se debe extender el volumen lógico de swap en unos 200MB.
+
+6.(20%) Luego de extender el volumen lógico se debe utilizar el comando "resize2fs" para que la tabla de archivos pueda detectar el nuevo espacio agregado.
+
+OPCIONAL (+10%) : Extienda la partición de root en 512 MB. 
+
+Entregables
+Al finalizar todos estos pasos se debe realizar un pequeño documento con los comandos utilizados a partir de momento en que se va a iniciar el particionado del disco extra. Adicional al documento, se deben entregar las salidas de los mismos comandos "display" utilizados al inicio del trabajo para comprobar la que la extensión tuvo éxito, además de una captura de pantalla de la máquina virtual con la salida del comando "vgdisplay" llamada "captura-VG-extendido.jpeg"
+
+Estos entregables deben ir en una carpeta del árbol de desarrollo llamada "Proyectos". Se recomienda la siguiente presentación:
+
+.
+└── Proyectos
+     └── Proyecto-1
+        ├── doc
+        │   └── proyecto1.txt
+        └── entregables
+           ├── captura-VG-extendido.jpeg
+           ├── lv-extendido
+           ├── lv-original
+           ├── pv-extendido
+           ├── pv-original
+           ├── vg-extendido
+           └── vg-extendido
+
