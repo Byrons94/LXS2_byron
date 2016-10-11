@@ -1,0 +1,68 @@
+    1  sudo fdisk -l
+    2  sudo shutdown -h now
+    3  ls
+    4  cd /home
+    5  ls
+    6  cd user2
+    7  ls
+    8  mkdir LSX2_byron
+    9  cd LSX2_byron/
+   10  .vim gitignore
+   11  vim gitignore
+   12  ls -a
+   13  mkdir src
+   14  mkdir misc
+   15  tree
+   16  pdw
+   17  pwd
+   18  ls
+   19  clear
+   20  mkdir hitory
+   21  touch history/fil
+   22  touch hitory/fil
+   23  touch misc/file
+   24  touch history/file
+   25  ls
+   26  tree
+   27  touch src/file
+   28  git config --global user.name "byron serrano"
+   29  git config -- user.email bironjosue@hotmail.com
+   30  git config --global user.email bironjosue@hotmail.com
+   31  clear
+   32  ls
+   33  touch hitory/file
+   34  ls
+   35  cd hitory/
+   36  ls
+   37  cd ..
+   38  ls
+   39  cd ..
+   40  ls
+   41  pwd
+   42  cd ..
+   43  ls
+   44  cd user2
+   45  ls
+   46  cd LSX2_byron/
+   47  TREE
+   48  tree
+   49  git status
+   50  ls -la
+   51  git status
+   52  ls
+   53  git init
+   54  ls
+   55  ls -la
+   56  tree
+   57  git status
+   58  clear
+   59  git add
+   60  git add misc/
+   61  git add hitory
+   62  git add history
+   63  git add src
+   64  git add
+   65  git status
+   66  git commit -m "inicio del arbol de desarollo"
+   67  git log
+   68  history > history/history-$HOSTNAME-`date +%Y%m%d`

@@ -1,0 +1,1000 @@
+   53  netstat -ltunpa
+   54  ps aux gred sshd
+   55  netstat -ltunpa  grep LISTEN
+   56  apt-get install nmap
+   57  ip -4 addr
+   58  nestat -ltunpa grep LISTEN
+   59  vim /etc/hosts
+   60  apt-get install vim
+   61  vim /etc/hosts
+   62  apt-get install vim-nox 
+   63  fdisk -l
+   64  fdisk /dev/sda
+   65  pvdisplay
+   66  pvcreate /dev/sda7
+   67  pvdisplay
+   68  pvcreate /dev/sda{8,9,10}
+   69  pvdisplay 
+   70  vgcreate server01 /dev/sda7
+   71  vgdisplay
+   72  man vgcreate
+   73  vgextend server01 /dev/sda10
+   74  vgdisplay
+   75  lvcreate -L 500M -ndata01 server01
+   76  lvcreate -L 200M server01
+   77  ls /dev/server01/
+   78  ls -l /dev/server01/
+   79  mkfs.ext4 dev/server01//data01 
+   80  mount
+   81  cd /mnt
+   82  ls
+   83  mkdir resplados
+   84  ls -l
+   85  dmesg
+   86  mount /dev/server01/data01  respaldos/
+   87  ls
+   88  mount /dev/server01/data01  resplados/
+   89  mount
+   90  ls
+   91  clear
+   92  pwd
+   93  ls /home/sysadmin/LXS2/LXS2_calinrv/history/
+   94  ls
+   95  ls /home/sysadmin/LXS2/LXS2_calinrv/history/
+   96  cd ..
+   97  lvdisplay
+   98  vgdisplay
+   99  mount
+  100  lvdisplay
+  101  vgdisplay
+  102  vgdisplay server01 
+  103  man lvextend 
+  104  lvextended -L +200M server01/data01
+  105  lvextended -L+200 server01/data01
+  106  history
+  107  lvextend -L+  200M server01/data01
+  108  lvextend -L+200M server01/data01
+  109  resize2fs /dev/server01/data01 
+  110  resize2f -f dev/server01/
+  111  resize2f -f dev/server01/data01 
+  112  resize2fs -f dev/server01/data01 
+  113  mount /dev/server01/data01 
+  114  apt-get install gemu-system
+  115  apt-get install qemu-kvm libvirt-bin bridge-utils virt-manager qemu-system
+  116  /tmp/
+  117  cd tmp/
+  118  git clone https://github.com/emvarg/LXS2_evargas.git
+  119  ls
+  120  cd LXS2_evargas/
+  121  cd scripts/
+  122  ls
+  123  cd /tmp/
+  124  ls
+  125  git clone https://github.com/emvarg/LXS2_evargas.git
+  126  ls
+  127  git pull mirepo master
+  128  git pull origin master
+  129  ls
+  130  git add origin https://github.com/calinrv/LXS2_calinrv.git 
+  131  git remote add origin https://github.com/calinrv/LXS2_calinrv.git 
+  132  git remote add mirepo https://github.com/calinrv/LXS2_calinrv.git 
+  133  git commit -m "Hstory de la clase LVM.PArte1clone"
+  134  git push -mirepo master
+  135  git pull origin master
+  136  ls
+  137  cd ..
+  138  ls
+  139  git pull origin master
+  140  ls scripts/
+  141  ls
+  142  cd scripts/
+  143  ls
+  144  cp cnts00.sh LXS2_calinrv/
+  145  which bash
+  146  chmod 750 cnts00.sh 
+  147  sudo ./cnts00.sh 
+  148  ls -l
+  149  sudo ./cnts00.sh 
+  150  mkdir srv
+  151  cd  srv
+  152  mkdir servidores
+  153  ls
+  154  cd ..
+  155  sudo ./cnts00.sh 
+  156  cp cnts00.sh LXS2_calinrv/
+  157  cp TMP_vir.sh ~/LXS2_calinrv/
+  158  cp TMP_vir.sh ~/LXS2/LXS2_calinrv/
+  159  cp cnts00.sh ~/LXS2/LXS2_calinrv/
+  160  cd ..
+  161  ls
+  162  home/
+  163  cd home/
+  164  ls
+  165  cd sys
+  166  cd sysadmin/
+  167  ls
+  168  cd LXS2/LXS2_calinrv/
+  169  ls
+  170  sudo ./cnts00.sh 
+  171  ls
+  172  sudo ./cnts00.sh 
+  173  cat cnts00.sh 
+  174  ls -l
+  175  ls -l /srv
+  176  ls -l /srv -a
+  177  df -lh
+  178  ls -l
+  179  ./cnts00.sh 
+  180  cd /srv/
+  181  ls
+  182  ls -l
+  183  sudo apt-get install git
+  184  ls
+  185  mkdir LXS2
+  186  ls
+  187  cd LXS2/
+  188  mkdir history
+  189  ls
+  190  git clone https://github.com/calinrv/LXS2_calinrv.git
+  191  ls
+  192  cd LXS2_calinrv/
+  193  mkdir history
+  194  git clone https://github.com/emvarg/LXS2_evargas.git
+  195  ls
+  196  cd LXS2_evargas/
+  197  ls
+  198  ls -l
+  199  cd history/
+  200  history > history_12072016_$HOSTNAME
+  201  ls
+  202  ls -l
+  203  git add history_12072016_ubn013 
+  204  #git
+  205  #git add history_12072016_ubn013 
+  206  ls
+  207  git commit -m "History de la clase LVM. Parte1"
+  208  git config --global.username "calinrv17@gmail.com"
+  209  git config --global user.email "calinrv17@gmail.com"
+  210  git config --global user.name "Carlos"
+  211  git commit -m "History de la clase LVM. Parte1"
+  212  git push -u mirepo master
+  213  history 
+  214  git remote add mirepo  https://github.com/calinrv/LXS2_calinrv.git
+  215  git remote -v
+  216  git push -u mirepo master
+  217  history
+  218  clear
+  219  sudo -s
+  220  ls
+  221  cd ..
+  222  ls
+  223  cd 
+  224  cp LXS2/LXS2_calinrv/cnts00.sh  .
+  225  sudo cp LXS2/LXS2_calinrv/cnts00.sh  .
+  226  ls
+  227  ls -l
+  228  sudo chown sysadmin:sysadmin cnts00.sh 
+  229  sudo ./cnts00.sh 
+  230  vim cnts00.sh 
+  231  sudo su -
+  232  sudo ./cnts00.sh 
+  233  git add history_12072016_ubn013Parte2
+  234  ls
+  235  ls
+  236  cd LXS2/
+  237  cd LXS2_calinrv/history/
+  238  ls -l
+  239  git add history-root_12072016-ubn013 
+  240  git commit -m "History de root en clase de LVM. Parte1"
+  241  git push -u mirepo master
+  242  ls
+  243  git remote add mirepo https://github.com/calinrv/LXS2_calinrv.git
+  244  git remote -v
+  245  git push -u mirepo master
+  246  sudo -s
+  247  cd home/
+  248  pwd
+  249  cd sysadmin/LXS2/LXS2_calinrv/
+  250  ls
+  251  history > history_15072016_$HOSTNAME
+  252  cd history/
+  253  ls
+  254  cd ..
+  255  git add history_15072016_unn013
+  256  cd history/
+  257  history > history_15072016_$HOSTNAME
+  258  ls
+  259  git add history_15072016_unn013
+  260  git add history_15072016_ubn013 
+  261  git commit -m "History del 12072016 Parte final"
+  262  git push -u mirepo master
+  263  git push -u origin master
+  264  git remote -v
+  265  cd..
+  266  cd ..
+  267  ls
+  268  cd LXS2_evargas/
+  269  git push -u mirepo master
+  270  git remore -v
+  271  git remote -v
+  272  cd ..
+  273  ls
+  274  cd history/
+  275  ls
+  276  git push -u mirepo master
+  277  cd ..
+  278  cd LXS2_evargas/
+  279  cd history/
+  280  git remote add mirepo https://github.com/calinrv/LXS2_calinrv.git
+  281  cd ..
+  282  apt-get install virt-viewer 
+  283  git cat
+  284  apt-get install gitk
+  285  ls
+  286  cat cnts00.sh 
+  287  virsh
+  288  ls
+  289  cd ..
+  290  clear
+  291  lvdisplay
+  292  ls /mnt/
+  293  mount /dev/server01/data01 /mnt/resplados/ 
+  294  cd /mnt/resplados/
+  295  ls
+  296  ls -la
+  297  ls
+  298  touch folder-{1,2,3}/file-{a,b,c}
+  299  ls -la
+  300  mkdir folder-{1,2,3}
+  301  ls
+  302  touch folder-{1,2,3}/file-{a,b,c}
+  303  tree
+  304  ls
+  305  tree
+  306  apt-get install tree
+  307  tree
+  308  man lvcreate
+  309  cd ..
+  310  ls
+  311  lvcreate -s -n snap-data01 -L 200M server01/data01
+  312  lvdisplay
+  313  cd resplados/
+  314  ls
+  315  mkdir folder4
+  316  mkdir folder5
+  317  touch folder4/file-{m,n}
+  318  touch folder5/file-{casa,perro}
+  319  tree
+  320  ls
+  321  cd ..
+  322  logout
+  323  cd ..
+  324  var1=1casa
+  325  var1=casa
+  326  var2=perro
+  327  echo "La $var1 del $var2 es roja"
+  328  /etc/
+  329  cd etc/
+  330  var =
+  331  echo $var1
+  332  cd $var1
+  333  exit
+  334  echo $var1
+  335  exit
+  336  cd /srv
+  337  ls
+  338  cd servidores/
+  339  ls
+  340  mkdir respaldos
+  341  ls
+  342  cd..
+  343  ls
+  344  mkdir servidores
+  345  ls
+  346  cd ..
+  347  ls
+  348  mkdir respaldos
+  349  ls
+  350  mkdir porrespaldos
+  351  ls
+  352  tar -pczf data01-respaldo-12072016.tar.gz porrespaldos/
+  353  ls -l
+  354  scp data01-respaldo-12072016.tar.gz  sysadmin@192.168.122.67
+  355  scp data01-respaldo-12072016.tar.gz  sysadmin@192.168.122.67:
+  356  mv data01-respaldo-12072016.tar.gz  respaldos/
+  357  dd if=/dev/server01/snap-data01 of=data01.img
+  358  ls -l
+  359  ls -lh
+  360  umount porrespaldos/
+  361  history
+  362  mount /dev/server01/data01 porrespaldos/ 
+  363  ls -l
+  364  ls
+  365  ls -la
+  366  tar -pczf data01-respaldo-12072016.tar.gz porrespaldos/
+  367  ls -l
+  368  umount porrespaldos/
+  369  ls
+  370  lvconvert --merge /dev/server01/snap-data01 
+  371  export var1=casa2
+  372  echo $var1
+  373  bash
+  374  echo $var1
+  375  var1=perro
+  376  echo $var1
+  377  unset $var1
+  378  echo $var1
+  379  echo var1
+  380  env | greo PWD
+  381  env | grep PWD
+  382  echo $user
+  383  exit
+  384  sudo -s
+  385  echo $user
+  386  echo $UID
+  387  ssh 192.168.122.67
+  388  ssh -keygen
+  389  ssh-keygen
+  390  ls .ssh/
+  391  cat .ssh/id_rsa
+  392  cat .ssh/id_rsa.pub
+  393  ssh-copy-id 192.168.122.67
+  394  ssh 192.168.122.67
+  395  cd /etc/libvirt/storage/
+  396  lvdisplay
+  397  sudo -s
+  398  sudo apt-get install htop
+  399  htop
+  400  cd..
+  401  cd ..
+  402  history > /home/sysadmin/LXS2/LXS2_calinrv/history/history-root_15072016-ubn013
+  403  logout
+  404  exit
+  405  ls
+  406  cd LXS2/LXS2_calinrv/
+  407  ls
+  408  history > history_15072016_$HOSTNAME
+  409  CD history
+  410  cd history/
+  411  history > history_15072016_$HOSTNAME
+  412  history > history_15072016_$HOSTNAMEls
+  413  ls
+  414  history > history_15072016P2_$HOSTNAME
+  415  sudo -
+  416  sudo -s
+  417  ls -l
+  418  sudo chown sysadmin:sysadmin history-root_15072016-ubn013 
+  419  ls -l
+  420  git add history-root_15072016-ubn013 
+  421  git add history_15072016_ubn013 
+  422  git status
+  423  git commit -m "history de la clase del 15072016"
+  424  git push mirepo master
+  425  ls -l
+  426  ls
+  427  git push help
+  428  git push --help
+  429  git push --repo
+  430  git push mirepo master
+  431  git pull mirepo master
+  432  git remote -v
+  433  cd ..
+  434  cd..
+  435  cd ..
+  436  ls
+  437  cd ..
+  438  ls
+  439  cd LXS2/
+  440  ls
+  441  cd L
+  442  cd LXS2_calinrv/
+  443  ls
+  444  mkdir LXS"_evargas2
+  445  exit
+  446  cd LXS2/LXS2_calinrv/LXS2_evargas2
+  447  cd LXS2/LXS2_calinrv/
+  448  la
+  449  mkdir LXS2_evargas2
+  450  cd LXS2_evargas2
+  451  ls
+  452  cd ..
+  453  ls
+  454  cd history/
+  455  ls
+  456  cd ..
+  457  git clone https://github.com/emvarg/LXS2_evargas.git 
+  458  cd LXS2_evargas2
+  459  git clone https://github.com/emvarg/LXS2_evargas.git 
+  460  ls
+  461  cd LXS2_evargas/
+  462  ls
+  463  ls -l
+  464  cd history
+  465  history > history_15072016_$HOSTNAME
+  466  ls
+  467  ls -l
+  468  git add history_15072016_ubn013
+  469  ls
+  470  git commit -m "History de la clase de 15072016"
+  471  git push -u mirepo master
+  472  git push -u origin master
+  473  git remote add mirepo https://github.com/calinrv/LXS2_calinrv.git 
+  474  git remote -v
+  475  git push -u mirepo master
+  476  cd ..
+  477  ls
+  478  git remote-v
+  479  cd history/
+  480  git remote-v
+  481  ls
+  482  sudo apt-get catdoc
+  483  sudo apt-get install catdoc
+  484  man bash
+  485  bash --version
+  486  echo $BASH version
+  487  ls
+  488  pwd
+  489  history > /tmp/file1
+  490  less /tmp//file1
+  491  cd /tmp/
+  492  ls
+  493  history > /tmp/file1
+  494  ls -l file1
+  495  dmesg > file1
+  496  ls -l file1
+  497  less file1
+  498  history > file1
+  499  ls -l file1
+  500  dmesg | tail >> file1
+  501  less file1
+  502  cp playa a ~ 2> error.log
+  503  cat error.log  grep stat > /home/sysadmin/Documents/error.log
+  504  cat error.log 
+  505  cat error.log | grep stat 
+  506  cat error.log | grep stat > error.log
+  507  cat error.log | grep stat 
+  508  grep stst error.log 
+  509  mkdir folder{1,2,3}
+  510  touch folder{1,2,3}/file-{a,b}
+  511  ls
+  512  tree folder
+  513  tree folder*
+  514  ls
+  515  mkdir folder
+  516  mv folder folder-m
+  517  mv folder{1,2,3} foder-m
+  518  mv folder{1,2,3} folder-m
+  519  ls
+  520  tree
+  521  folder-m$ for i in folder1 folder2 folder 3 folder4; do ls -l $i ; done
+  522  folder-m$ for i in folder1 folder2 folder3 folder4; do ls -l $i ;done
+  523  echo lolo
+  524  echo $HOSTNAME
+  525  echo yo tengo 100 dolares
+  526  echo yo tengo $100
+  527  echo "yo tengo \$100"
+  528  echo 4*2>10 es falso
+  529  ls
+  530  cat 10
+  531  echo \$100
+  532  echo tengo \$100
+  533  htop
+  534  pstree
+  535  pstree | less
+  536  ps aux | grep ligh
+  537  sudo kill -9 1312
+  538  ps 
+  539  ps aux
+  540  ls
+  541  cd LXS2/
+  542  ls
+  543  ls- l
+  544  ls -l
+  545  cd LXS2_calinrv/
+  546  ls
+  547  ls- la
+  548  ls -la
+  549  ls history
+  550  cd 
+  551  ls
+  552  cd LXS2/
+  553  ls
+  554  cd LXS2_calinrv/
+  555  ls
+  556  cd LXS2_evargas
+  557  ls
+  558  git remote -v 
+  559  cd ..
+  560  ls
+  561  cd ..
+  562  ls
+  563  git clone https://github.com/emvarg/LXS2_evargas.git
+  564  kls
+  565  ls
+  566  cd cd LXS2_evargas/
+  567  ls
+  568  cd LXS2_evargas/
+  569  ls
+  570  ls -la
+  571  ls
+  572  cd ..
+  573  ls
+  574  cd 
+  575  ls
+  576  vim .bashrc 
+  577  cd LXS2/
+  578  ls
+  579  cd LXS2_
+  580  cd LXS2_evargas/
+  581  pwd
+  582  vim ~/.bashrc 
+  583  source ~/.bashrc
+  584  tail ~/.bashrc
+  585  cd 
+  586  updaterepo 
+  587  cd -
+  588  updaterepo 
+  589  cd -
+  590  vim .bashrc 
+  591  cat .bashrc 
+  592  vim .bashrc 
+  593  LXS2/LXS2_calinrv/
+  594  cd LXS2/LXS2_calinrv/
+  595  ls
+  596  cd LXS2_evargas2
+  597  ls
+  598  LXS2_evargas/
+  599  cd LXS2_evargas/
+  600  ls
+  601  cd history/
+  602  ls
+  603  cd ..
+  604  git clone https://github.com/emvarg/LXS2_evargas.git 
+  605  ls
+  606  LXS2_evargas/
+  607  cd LXS2_evargas/
+  608  ls
+  609  history > history_18072016_$HOSTNAME
+  610  ls -l
+  611  git add history_18072016_ubn013 
+  612  ls
+  613  git commit -m "Clase del 18"
+  614  git push -u mirepo master
+  615  ls
+  616  git push -u mirepo master
+  617  git remote add mirepo
+  618  clear
+  619  ls
+  620  git add history_18072016_ubn013 
+  621  git remore -v
+  622  git remote -v
+  623  git remote add mirepo  https://github.com/calinrv/LXS2_calinrv.git 
+  624  git remote -v
+  625  git push -u mirepo master
+  626  ls 
+  627  git push -u origin master
+  628  git status
+  629  git log
+  630  clear
+  631  cd ..
+  632  ls
+  633  cd history/
+  634  ifconfig
+  635  cd ..
+  636  ls
+  637  cd ..
+  638  cd LXS2_evargas/
+  639  vim .bahrc
+  640  cd LXS2/LXS2_calinrv/
+  641  vim bashrc
+  642  cd LXS2/
+  643  ls
+  644  cd LXS2_calinrv/
+  645  ls
+  646  git status 
+  647  sudo rm -r LXS2_evargas
+  648  sudo rm -r LXS2_evargas2/
+  649  git status 
+  650  git add history/*
+  651  git status 
+  652  git commit -m "histories de inicio de la clase 6"
+  653  ls -la
+  654  sudo chown sysadmin:sysadmin R *
+  655  sudo chown sysadmin:sysadmin -R *
+  656  ls -l 
+  657  git status 
+  658  git remote -v
+  659  git remote rm mirepo
+  660  git remote -v
+  661  git push origin master 
+  662  less /etc/password
+  663  less /etc/passwd
+  664  logout
+  665  exit
+  666  cd LXS2/LXS2_calinrv/
+  667  cd src/
+  668  ls
+  669  ls -la
+  670  bash SpecVars.sh 
+  671  ls -l
+  672  cat SpecVars.sh.err 
+  673  echo " " SpecVars.sh.err 
+  674  cat SpecVars.sh.err 
+  675  echo " " > SpecVars.sh.err 
+  676  cat SpecVars.sh.err 
+  677  dmesg | tail > archivo1.txt
+  678  ls -l
+  679  bash SpecVars.sh
+  680  ls -l
+  681  rm archivo1.txt
+  682  ls -l
+  683  rm archivo1.txt*
+  684  ls-l
+  685  ls -l
+  686  rm SpecVars.sh.err 
+  687  ls -l
+  688  bash SpecVars.sh 
+  689  echo $ERRORLOG
+  690  dmesg | tail > archivo1.txt
+  691  ls -l
+  692  rm SpecVars.sh.err 
+  693  ls -l
+  694  bash SpecVars.sh 
+  695  ls -l
+  696  sudo apt-get install exim4
+  697  sudo vim /etc/exim4/update-exim4.conf.conf 
+  698  sudo dpkg-reconfigure exim4-config 
+  699  tail /etc/exim4/update-exim4.conf.conf 
+  700  sudo update-exim4.conf
+  701  tail /etc/exim4/update-exim4.conf.conf 
+  702  echo "Este es mi primer correo" | mail -s "prueba de correo" calinrv17@gmail.com
+  703  vim .bashrc
+  704  source .bashrc
+  705  cd LXS2/LXS2_calinrv/
+  706  git status
+  707  git rm -r LXS2_evargas
+  708  ipconfig
+  709  ifconfig
+  710  git push origin master
+  711  git push -u origin master
+  712  git remote -v
+  713  git push origin master
+  714  ls
+  715  clear
+  716  git push origin master
+  717  clear
+  718  cd ..
+  719  ps aux
+  720  ps -x
+  721  pgrep nm-applet 
+  722  sudo -s
+  723  free -h
+  724  echo $SHELL
+  725  cd LXS2/
+  726  cd LXS2_calinrv/
+  727  cd ..
+  728  clear
+  729  cd LXS2/LXS2_
+  730  cd LXS2/LXS2_calinrv/
+  731  ls
+  732  cd history/
+  733  ls
+  734  cd ..
+  735  mkdir src
+  736  cd src/
+  737  vim SpecVars.sh
+  738  ls
+  739  vim deb00.xml 
+  740  ls
+  741  sudo mv deb00.xml /var/lib/libvirt/images/
+  742  virsh define deb00.img 
+  743  sudo virsh define deb00.img 
+  744  virsh create deb00.img 
+  745  vim deb00.img 
+  746  ls
+  747  sudo mv /var/lib/libvirt/images/deb00.xml .
+  748  ls
+  749  sudo mv deb00.img /var/lib/libvirt/images/
+  750  ls
+  751  virsh list --all
+  752  virsh create deb00.xml 
+  753  virsh list --all
+  754  ls /var/lib/libvirt/images/
+  755  sudo ls /var/lib/libvirt/images/
+  756  ls /etc/libvirt/qemu
+  757  ls /etc/libvirt/qemuls
+  758  ls
+  759  less deb00.xml 
+  760  vim deb00.xml 
+  761  ls
+  762  virsh list --all
+  763  free -lh
+  764  virsh start cnts00
+  765  free -lh
+  766  virsh start cnts00
+  767  free -lh
+  768  ls
+  769  cd /etc/
+  770  cd /tmp/
+  771  ls
+  772  git clone https://github.com/emvarg/LXS2_evargas.git
+  773  ls
+  774  cd LXS2_evargas/
+  775  ls
+  776  treee
+  777  tree
+  778  exit
+  779  ipconfig
+  780  ifcongif
+  781  ifconfig
+  782  cd /home/sysadmin/
+  783  ls
+  784  mkdir repoProfe
+  785  cd repoProfe/
+  786  git clone https://github.com/emvarg/LSX2_evargas
+  787  ls /etc/libvirt/qemu
+  788  virsh define deb00.xml 
+  789  ls /etc/libvirt/qemu
+  790  ssh 10.10.30.51
+  791  ssh 192.168.122.139
+  792  ssh 192.168.122.67
+  793  ls
+  794  ssh 192.168.122.67
+  795  cd /etc/libvirt/
+  796  ls
+  797  sudo -s
+  798  cd qemu/
+  799  ls
+  800  ls -la
+  801  virsh 
+  802  cd networks/
+  803  ls
+  804  tree
+  805  cd ..
+  806  cd /home/
+  807  cd ..
+  808  cd /tmp/
+  809  ls 
+  810  cd LXS2_evargas/
+  811  cd misc/
+  812  virsh 
+  813  cd ..
+  814  cd ,,
+  815  cd ..
+  816  cd /home/sysadmin/repoProfe/
+  817  git clone https://github.com/emvarg/LSX2_evargas.git
+  818  git clone https://github.com/emvarg/LXS2_evargas.git
+  819  ls
+  820  LXS2_evargas/
+  821  cd LXS2_evargas/
+  822  cd misc/
+  823  ls
+  824  cd ..
+  825  cd ,,
+  826  cd ..
+  827  cd ,,
+  828  cd ..
+  829  cd /etc/libvirt/qemu/networks/
+  830  clear
+  831  ls
+  832  cd ..
+  833  cd /home/sysadmin/repoProfe/
+  834  cd LXS2_evargas/
+  835  cd misc/
+  836  ls
+  837  virsh
+  838  cd ..
+  839  cd /etc/libvirt/
+  840  ls
+  841  cd qemu/
+  842  ls
+  843  cd ..
+  844  ls
+  845  cd qemu/
+  846  ls
+  847  sudo apt-get install gparted
+  848  fdisk -l
+  849  fdisk /dev/sda
+  850  fdisk -l
+  851  pvcreate /dev/sda7
+  852  exit
+  853  cd /
+  854  ls
+  855  sudo apt-get install vim
+  856  sudo apt-get install git
+  857  ls
+  858  cd home
+  859  ls
+  860  cd sysadmin/
+  861  ls
+  862  cd lxs2
+  863  cd LXS2/
+  864  ls
+  865  mkdir LXS2_byron
+  866  cd LXS2_byron/
+  867  sudo git .init
+  868  sudo git init
+  869  clear
+  870  sudo apt-get install lvm2
+  871  dpkp --get-selections | grep lv
+  872  dpkg --get-selections | grep lv
+  873  fisk -l
+  874  fdisk -l
+  875  sudo -s
+  876  sudo -u
+  877  sudo -s
+  878  sudo apt-get install git
+  879  cd /
+  880  ls
+  881  cd home
+  882  ls
+  883  cd sysadmin/
+  884  ls
+  885  sudo git init
+  886  git clone https://github.com/Byrons/LXS2_byron.git
+  887  git clone https://github.com/Byrons94/LXS2_byron.git
+  888  ls
+  889  cd LXS2_byron/
+  890  ls
+  891  cd proyectos/
+  892  ls
+  893  cd proyecto1/
+  894  ls
+  895  clear
+  896  pwd
+  897  cd ..
+  898  ls
+  899  cd ..
+  900  ls
+  901  cd proyectos/
+  902  cd proyecto1/
+  903  touch song.mtp
+  904  ls
+  905  mkdir input_output
+  906  mv song.mtp input_output/
+  907  ls
+  908  cd input_output/
+  909  ls algo > otro 2> error
+  910  cat otro 
+  911  cat error 
+  912  clear
+  913  touch scripts > otro 2> error
+  914  cat error 
+  915  ls
+  916  car error
+  917  cat error
+  918  tre
+  919  clear
+  920  tree
+  921  ls
+  922  clear
+  923  cat error
+  924  ls algo > perrito 2>> error
+  925  cat error
+  926  ls algo > perrito 2>> error
+  927  cat error
+  928  tree
+  929  cat error
+  930  cat error >> perrito
+  931  cat perrito
+  932  cowsay todo bien
+  933  apt-get install cowsay
+  934  sudo apt-get install cowsay
+  935  cowsay todo bien
+  936  cd ..
+  937  ls
+  938  cd ..
+  939  clear
+  940  cd ..
+  941  ;s
+  942  ls
+  943  cd LXS2
+  944  ls
+  945  cd ..
+  946  cd LXS2_byron/
+  947  ls
+  948  cd ..
+  949  ls
+  950  clear
+  951  sudo git clone 
+  952  sudo git clone https://github.com/emvarg/LXS2_emmanuel.git
+  953  ls
+  954  cd LXS2_
+  955  cd LXS2_emmanuel/
+  956  ls
+  957  git push origin master
+  958  ls
+  959  cd misc/
+  960  ls
+  961  cd ..
+  962  ls
+  963  cd LXS2_byron/
+  964  ls
+  965  cd misc/
+  966  ls
+  967  cat file
+  968  rm file
+  969  ls
+  970  pwd
+  971  clear
+  972  cd ..
+  973  cd..
+  974  git pull origin master
+  975  cd ..
+  976  ls
+  977  ls LXS2_byron/misc/
+  978  ls
+  979  mkdir LXS2_byron/misc/clase3
+  980  cp LXS2_emmanuel/misc/dhcpd.conf LXS2_byron/misc/clase3/
+  981  ls LXS2_byron/misc/clase3
+  982  tree
+  983  cd LXS2_byron/misc/clase3/
+  984  cat dhcpd.conf 
+  985  pwd
+  986  clear
+  987  cat dhcpd.conf | grep -v "fixed" | grep | "163." | awk -F" " '{print $2}' | sort
+  988  cat dhcpd.conf | grep -v "#" | grep "fixed" | grep "163." | awk -F" " '{print $2}' | sort
+  989  cat dhcpd.conf | grep -v "#" | grep "fixed" | grep "163." | awk -F" " '{print $1}' | sort
+  990  cat dhcpd.conf | grep -v "#" | grep "fixed" | grep "163." | awk -F. '{print $1}' | sort
+  991  cat dhcpd.conf 
+  992  clear
+  993  cat dhcpd.conf | grep -v "#" | grep "fixed" | grep "10." | awk -F" " '{print $1}' | sort
+  994  cat dhcpd.conf | grep -v "#" | grep "fixed" | grep "10." | awk -F" " '{print $2}' | sort
+  995  clear
+  996  cat dhcpd.conf | grep -v "#" | grep "fixed" | grep "10." | awk -F" " '{print $2}' | sort >red-blanca
+  997  cat dhcpd.conf | grep -v "#" | grep "fixed" | grep "192." | awk -F" " '{print $2}' | sort >red-azul
+  998  cat dhcpd.conf | grep -v "#" | grep "fixed" | grep "163." | awk -F" " '{print $2}' | sort >red-verde
+  999  tree
+ 1000  cat red-azul 
+ 1001  cat red-verde 
+ 1002  clear
+ 1003  cd ..
+ 1004  git status
+ 1005  git add misc/
+ 1006  git status
+ 1007  git commit
+ 1008  git commit -m "subiendo trabajo en clase semana 3 pipelining"
+ 1009  git push
+ 1010  cat dhcpd.conf | grep -v "#" | grep "fixed" | grep "1" | awk -F" " '{print $2}' | sort
+ 1011  cat dhcpd.conf | grep -v "#" | grep "fixed" | grep "10." | awk -F" " '{print $2}' | sort
+ 1012  cat misc/clase3/dhcpd.conf | grep -v "#" | grep "fixed" | grep "10." | awk -F" " '{print $2}' | sort
+ 1013  cat misc/clase3/dhcpd.conf | grep -v "#" | grep "fixed" | grep "1" | awk -F" " '{print $2}' | sort
+ 1014  cat misc/clase3/dhcpd.conf | grep -v "#" | grep "fixed" | grep "168" | awk -F" " '{print $2}' | sort
+ 1015  clear
+ 1016  cat misc/clase3/dhcpd.conf | grep -v "#" | grep "fixed" | grep "168" | awk -F" " '{print $2}' | sort
+ 1017  cat misc/clase3/dhcpd.conf | grep -v "#" | grep "fixed" | grep "168" | awk -F" " '{print $2}' | sort >> red-verde
+ 1018  cat misc/clase3/red-verde 
+ 1019  cat misc/clase3/dhcpd.conf | grep -v "#" | grep "fixed" | grep "168." | awk -F" " '{print $2}' | sort > red-verde
+ 1020  cat misc/clase3/red-verde 
+ 1021  cat misc/clase3/red-azul
+ 1022  cat misc/clase3/red-verde 
+ 1023  cat misc/clase3/dhcpd.conf | grep -v "#" | grep "fixed" | grep "168." | awk -F" " '{print $2}' | sort 
+ 1024  clear
+ 1025  cat misc/clase3/dhcpd.conf | grep -v "#" | grep "fixed" | grep "168" | awk -F" " '{print $2}' | sort
+ 1026  cat misc/clase3/dhcpd.conf | grep -v "#" | grep "fixed" | grep "168." | awk -F" " '{print $2}' | sort > red-verde
+ 1027  cd misc/
+ 1028  cd clase3/
+ 1029  ls
+ 1030  tree
+ 1031  ls red-ver
+ 1032  ls red-verde 
+ 1033  cat red-verde 
+ 1034  rm red-verde
+ 1035  cat misc/clase3/dhcpd.conf | grep -v "#" | grep "fixed" | grep "168." | awk -F" " '{print $2}' | sort > red-verde
+ 1036  cat misc/clase3/dhcpd.conf | grep -v "#" | grep "fixed" | grep "168." | awk -F" " '{print $2}' | sort >> red-verde
+ 1037  cat dhcpd.conf | grep -v "#" | grep "fixed" | grep "168." | awk -F" " '{print $2}' | sort >> red-verde
+ 1038  cat red-verde 
+ 1039  git status
+ 1040  git commit
+ 1041  cd ..
+ 1042  git status
+ 1043  git add red-verde
+ 1044  pwd
+ 1045  cd clase3/
+ 1046  git add red-verde 
+ 1047  git commit -m "arreglo de redes 163. por 168."
+ 1048  git push
+ 1049  clear
+ 1050  cd .. ..
+ 1051  cd ..
+ 1052  history >history/-$HOSTNAME-`date +%m%d`
