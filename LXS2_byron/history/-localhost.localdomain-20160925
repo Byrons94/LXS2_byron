@@ -1,0 +1,300 @@
+    1  yum install lvm2
+    2  yum install cowsay
+    3  yum install cowsays
+    4  yum install cowsay
+    5  clear
+    6  fdisk -l
+    7  init 0
+    8  fdisk -l
+    9  ip addr
+   10  yum install openssh-server
+   11  ip addr
+   12  shutdown -h now
+   13  ip addr
+   14  display
+   15  pvdisplay
+   16  cd /
+   17  ls
+   18  yum install git
+   19  ip addr
+   20  fdisk -l
+   21  yum install tree
+   22  git clone https://github.com/Byrons94/LXS2_byron.git
+   23  ls
+   24  cd /
+   25  ls
+   26  cd home
+   27  ls
+   28  cd ..
+   29  ls
+   30  cd tmp
+   31  ls
+   32  git clone https://github.com/Byrons94/LXS2_byron.git
+   33  ls
+   34  rm -r LXS2_byron/
+   35  s
+   36  clear
+   37  LXS2_byron/
+   38  cd ..
+   39  ñs
+   40  ls
+   41  git clone https://github.com/Byrons94/LXS2_byron.git
+   42  ls
+   43  cd LXS2_byron/
+   44  ls
+   45  cd proyectos/
+   46  ls
+   47  tree
+   48  mkdir entregables
+   49  ls
+   50  rm r- entregables/
+   51  sudo rm r- entregables/
+   52  sudo rm r- entregables
+   53  ls
+   54  rm -f entregables/
+   55  rm -r entregables
+   56  ls
+   57  cd proyecto1/
+   58  mkdir entregables
+   59  cd/
+   60  clear
+   61  fdisk -l
+   62  pvdisplay
+   63  vgdisplay
+   64  lvdisplay
+   65  cat lvdisplay
+   66   lvdisplay vgdisplay
+   67   lvdisplay |  vgdisplay
+   68  ls
+   69  cd entregables/
+   70  ls
+   71  cd ..
+   72  lvdisplay > entregables/lv-original
+   73  pvdisplay > entregables/pv-original
+   74  vgdisplay > entregables/vg-original
+   75  tree
+   76  cat entregables/lv-original 
+   77  fdisk -l
+   78  fdisk /dev/sdb
+   79  pvcreate /dev/sdb
+   80  fkdisk /dev/sbb
+   81  fkdisk /dev/sdb
+   82  fdisk /dev/sdb
+   83  fdisk -l
+   84  fdisk /dev/sdb
+   85  fdisk -l
+   86  clear
+   87  lvcreate /dev/sdb
+   88  lvcreate --help
+   89  pvdisplay
+   90  clear
+   91  pvdisplay
+   92  lvdisplay
+   93  gvdisplay
+   94  lvdisplay
+   95  pvdisplay
+   96  pcdisplay
+   97  fdisk /dev/sdb
+   98  fdisk -l
+   99  clear
+  100  fdisk -l
+  101  fdisk /dev/sdb
+  102  lvdisplay
+  103  gvdisplay
+  104  vgdisplay
+  105  clear
+  106  vgdisplay
+  107  gvdisplay
+  108  vgdisplay
+  109  lvdisplay
+  110  vgdisplay
+  111  clear
+  112  vgdisplay
+  113  lvdisplay
+  114  pwd
+  115  git status
+  116  git init
+  117  git status
+  118  git add entregables/
+  119  tree
+  120  git commit
+  121  git commit -m "subiendo inicial proyecto"
+  122  git push
+  123  git config --global.user byron
+  124  git config --global user byron
+  125  git config --global user.name byron
+  126  git config --global user.email bironjosue@hotmail.com
+  127  git push
+  128  giit status
+  129  git status
+  130  git push origin master
+  131  git push 
+  132  git push Byrons94
+  133  git push
+  134  git remote add LXS2_byron https://github.com/Byrons94/LXS2_byron.git
+  135  git push
+  136  git push LXS2_byron
+  137  git pull
+  138  cd ..
+  139  ;s
+  140  cd ..
+  141  ls
+  142  git pull
+  143  git status
+  144  git add /LXS2_byron/proyectos/proyecto1/entregables/
+  145  git commit -m "subiendo primera parte"
+  146  git push
+  147  shutdown -h now
+  148  lvdisplay
+  149  fdisk -l
+  150  vgdisplay
+  151  clear
+  152  pvdisplay
+  153  pvcreate /dev/sdb
+  154  pvdisplay
+  155  vgdisplay
+  156  fdisk /dev/sda
+  157  pvcreate /dev/sda2
+  158  pvcreate /dev/sda1
+  159  pvcreate /dev/s
+  160  fdisk -l
+  161  fdisk /dev/sdb
+  162  pvcreate /dev/sda1
+  163  pvcreate /dev/sdb
+  164  pvcreate /dev/s
+  165  pvcreate /dev/sda
+  166  pvcreate /dev/sdb
+  167  pvcreate /dev/sdb1
+  168  lvdisplay
+  169  vgdisplay
+  170  clear
+  171  vgdisplay
+  172  vgextend cents /dev/sdb1
+  173  vgextend centos /dev/sdb1
+  174  vgdisplay
+  175  lvdisplay
+  176* 
+  177  vgdisplay
+  178  lvdisplay
+  179  clear
+  180  lvdisplay
+  181  lvextend -l +200mb /dev/centos/swap 
+  182  lvextend -l +200m /dev/centos/swap 
+  183  --extends
+  184  lvhelp
+  185  lvextend -l +200 mb /dev/centos/swap 
+  186  lvextend --help
+  187  lvextend -l +200 /dev/centos/swap 
+  188  lvremove 
+  189  lvextend -l -200 /dev/centos/swap 
+  190  lvreduce -l 200 /dev/centos/swap 
+  191  lvextend -l +200Mib /dev/centos/swap 
+  192  lvextend -l +200M /dev/centos/swap 
+  193  lvextend -l +200m /dev/centos/swap 
+  194  lvextend -l +0.200G /dev/centos/swap 
+  195  lvextend -l +200M /dev/centos/swap 
+  196  lvextend -L +200M /dev/centos/swap 
+  197  clear
+  198* 
+  199  resize2fs /dev/sdb1
+  200  resize2fs 
+  201  resize2fs --help
+  202  resize2fs /dev/centos/swap 
+  203  resize2fs /dev/centos/root 
+  204  resize2fs /dev/sdb1
+  205  resize2fs /dev/sdb
+  206  resize2fs /dev/sbd1
+  207  clear
+  208  lvdisplay
+  209  umount /dev/centos/swap 
+  210  resize2fs /dev/centos/swap 
+  211  mount /dev/centos/swap 
+  212  pvdisplay
+  213  lvdisplay
+  214  e2dsck -d /dev/centos/swap 
+  215  e2fsck -d /dev/centos/swap 
+  216  umount /dev/centos/swap 
+  217  e2fsck -d /dev/centos/swap 
+  218  mount /dev/centos/swap 
+  219  resize2fs
+  220  resize2fs -f /dev/centos/swap 
+  221  mkswap /dev/sdb1
+  222  mkswap /dev/sdb
+  223  mkswap /dev/sdb2
+  224  clear
+  225  df -h
+  226  mount /dev/centos/swap 
+  227  mount /dev/centos/swap
+  228  mount /dev/centos/root 
+  229  mount /dev/centos/swap 
+  230   mount point swap does not exist
+  231  fdisk -l
+  232  fdisk
+  233  fdisk -l
+  234  vmstats
+  235  vmstat
+  236  swap -s
+  237  swapon -s
+  238  resize2fs /dev/centos/swap 
+  239  e2fck -f /dev/sdb1
+  240  e2fsck -f /dev/sdb1
+  241  resize2fs /dev/sdb1
+  242  resize2fs /dev/sdb
+  243  clear
+  244  lvdisplay
+  245  vgdisplay
+  246  pvdisplay
+  247  lvextend -l +500 /dev/centos/root 
+  248  lvextend -l +500M /dev/centos/root 
+  249  lvextend -l +500Mb /dev/centos/root 
+  250  lvextend -L +500M /dev/centos/root 
+  251  lvextend -L +12M /dev/centos/root 
+  252  clear
+  253  lvdisplay > /LXS2_byron/proyectos/proyecto1/entregables/ lv-extendido
+  254  lvdisplay > /LXS2_byron/proyectos/proyecto1/entregables/lv-extendido
+  255  pvdisplay > /LXS2_byron/proyectos/proyecto1/entregables/pv-extendido
+  256  vgdisplay 
+  257  vgdisplay > /LXS2_byron/proyectos/proyecto1/entregables/vg-extendido
+  258  clear
+  259  vgdisplay
+  260  pdw
+  261  pwd
+  262  cd LXS2_byron/proyectos/
+  263  ls
+  264  cd proyecto1/
+  265  ls
+  266  rm -f formateo_disco 
+  267  mkdir doc
+  268  git status
+  269  ls
+  270  cd /
+  271  ls
+  272  cd LXS2_byron/
+  273  ls
+  274  ls proyectos/
+  275  cd  proyectos/
+  276  ls
+  277  cd proyecto1/
+  278  ls
+  279  git statis
+  280  git status
+  281  git add entregables/
+  282  git add doc
+  283  ls
+  284  cd entregables/
+  285  cd ..
+  286  tree
+  287  cd ..
+  288  tree
+  289  cd proyecto1/
+  290  mkdir doc
+  291  tree
+  292  git add entregables/
+  293  got commit
+  294  history > history/history-$HOSTNAME-`date +%Y%m%d`
+  295  cd ..
+  296  ls
+  297  cd ..
+  298  ls
+  299  history > history/-$HOSTNAME - `date +%Y%m%d`
+  300  history > history/-$HOSTNAME-`date +%Y%m%d`
