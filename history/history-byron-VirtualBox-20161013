@@ -1,0 +1,386 @@
+    1  cd  /home
+    2  ls
+    3  cd /
+    4  sudo apt-get install ssh-server
+    5  sudo apt-get install  openssh-server
+    6  ip -4 addr
+    7  clear
+    8  sudo apt-get install spotify
+    9  sudo apt-get install git
+   10  ls
+   11  git config --global byron
+   12  git config --global "Byron Serrano"
+   13  git config --global user.name  "Byron Serrano"
+   14  git config --global user.email bironjosue@hotmail.com
+   15  git config list
+   16  git config --list
+   17  info
+   18  clear
+   19  git status
+   20  ls
+   21  cd documentos
+   22  cd Documentos
+   23  ls
+   24  cd /
+   25  ls
+   26  cd home
+   27  ls
+   28  apt+get install git
+   29  apt-get install git
+   30  sudo apt-get install git
+   31  sudo apt-get install vim
+   32  git init
+   33  sudo git init
+   34  git clone https://github.com/envarg/LSX2_emmanuel.git
+   35  sudo git clone https://github.com/envarg/LSX2_emmanuel.git
+   36  sudo git clone https://github.com/envarg/LSX2_emmanuel.git repo-emma
+   37  sudo git clone https://github.com/emvarg/LXS2_emmanuel.git
+   38  git status
+   39  ls
+   40  mkdir curso
+   41  sudo mkdir curso
+   42  ls
+   43  cd LXS2_emmanuel/
+   44  LS
+   45  sudo apt-get install sl
+   46  ls
+   47  cd..
+   48  cd ..
+   49  ls
+   50  cp LXS2_emmanuel/ curso
+   51  ls
+   52  cd curso
+   53  ls
+   54  pwd
+   55  clear
+   56  ls
+   57  cd ..
+   58  ls
+   59  sudo cp LXS2_emmanuel/ curso
+   60  sudo git clone https://github.com/emvarg/LXS2_emmanuel.git curso
+   61  ls
+   62  cd curso
+   63  ls
+   64  cd ..
+   65  mv curso Curso2_Linux_Byron
+   66  sudo mv curso Curso2_Linux_Byron
+   67  ls
+   68  git status
+   69  git add Curso2_Linux_Byron/
+   70  sudo git add Curso2_Linux_Byron/
+   71  git status
+   72  git commit
+   73  sudo git commit
+   74  sudo commit
+   75  git commit
+   76  sudo git commit
+   77  sudo git commit -m "subiendo repositorio del profe"
+   78  gitk
+   79  apt-get install gitk
+   80  sudo apt-get install gitk
+   81  sudo apt-get install  tree
+   82  sudo tree
+   83  ls
+   84  clear
+   85  sudo git remote origin hhtps://github.com:Byrons94/curso.git
+   86  sudo git remote add origin hhtps://github.com:Byrons94/curso.git
+   87  ls
+   88  sudo git remote add origin hhtps://github.com:Byrons94/curso.git
+   89  sudo git curso add origin hhtps://github.com:Byrons94/curso.git
+   90  sudo git curso add origin https://github.com/Byrons94/Repositorio_Profe.git
+   91  sudo git origin add origin https://github.com/Byrons94/Repositorio_Profe.git
+   92  sudo git  add origin https://github.com/Byrons94/Repositorio_Profe.git
+   93  sudo git add curso https://github.com/Byrons94/Repositorio_Profe.git
+   94  clear
+   95  sudo git remote add curso https://github.com/Byrons94/Repositorio_Profe.git
+   96  ls
+   97  sudo git remote add origin https://github.com/Byrons94/Repositorio_Profe.git
+   98  sudo git remote add curso https://github.com/Byrons94/Repositorio_Profe.git
+   99  sudo git push origin master
+  100  sudo git push -u  origin master
+  101  sudo git push -u  curso master
+  102  sudo shutdown -h now
+  103  fdisk -l
+  104  sudo fdisk -l
+  105  pvdisplay
+  106  sudo apt-get install lvm
+  107  sudo apt-get install lvm2
+  108  sudo apt-get install cowsay
+  109  cowsay hola a todo el mundo
+  110  clear
+  111  pvdisplay
+  112  sudo pvdisplay
+  113  sudo -s
+  114  pvdisplay
+  115  vgdisplay
+  116  fdisk -l
+  117  sudo apt-get install spotify
+  118  shoutdown -h now
+  119  shutdown -h now
+  120  s✉❞♦ r♣♠ ✲❯❤✈ ❤tt♣✿✴✴♣❛❝❦❛❣❡s✳s✇✳❜❡✴r♣♠❢♦r❣❡✲r❡❧❡❛s❡✴r♣♠❢♦r❣❡✲
+  121  r❡❧❡❛s❡✲✵✳✺✳✷✲✷✳❡❧✻✳r❢✳1✽✻❴✻✹✳r♣♠r♣♠ ✲❯❤✈ ❤tt♣✿✴✴♣❛❝❦❛❣❡s✳s✇✳❜❡✴r♣♠❢♦r❣❡✲r❡❧❡❛s❡✴r♣♠❢♦r❣❡✲
+  122  sudo rpm-Uhv hhtp://packages.sw.br/rpmforge-release/rpmforge-release-0.5.2-2.el6.rf.x86_64.tpm
+  123  sudo rpm -Uhv hhtp://packages.sw.br/rpmforge-release/rpmforge-release-0.5.2-2.el6.rf.x86_64.tpm
+  124  apt-get install catdog
+  125  sudo upgrate
+  126  sudo upgrade
+  127  sudo apt-update
+  128  sudo apt-uǵrate
+  129  sudo apt-upgrade
+  130  sudo upgrade
+  131  clear
+  132  sudo s-
+  133  sudo -s
+  134  update
+  135  upgrate
+  136  upgrade
+  137  apt-get install catdog
+  138  apt-get install catdoc
+  139  aptget update
+  140  apt-get update
+  141  clear
+  142  ls
+  143  cd home
+  144  cd /home
+  145  ls
+  146  cd LXS2_byron/
+  147  ls
+  148  cd LXS2_byron/
+  149  ls
+  150  cd proyectos/
+  151  ls
+  152  cd proyecto
+  153  cd proyecto2
+  154  ls
+  155  clear
+  156  ls
+  157  cd /home/byron/Descargas/Proyecto-de-Programacion/ ./
+  158  cp /home/byron/Descargas/Proyecto-de-Programacion/ /home/LXS2_byron/LXS2_byron/proyectos/proyecto2/
+  159  cp /home/byron/Descargas/Proyecto-de-Programacion/problema1 /home/LXS2_byron/LXS2_byron/proyectos/proyecto2/
+  160  clear
+  161  cd /home/LXS2_byron/LXS2_byron/proyectos/proyecto2
+  162  ls
+  163  tree
+  164  cd ..
+  165  ls
+  166  chmod proyecto 750
+  167  chmod 750 proyecto2
+  168  chmod 777 proyecto2
+  169  ls
+  170  chmod 750 proyecto2
+  171  ls
+  172  cd proyecto2
+  173  ls
+  174  cd problemas/
+  175  mkdir problema1
+  176  ls
+  177  cd ..
+  178  cd ejercicios/
+  179  mkdir problema1
+  180  cd problema1/
+  181  vim problema1.sh
+  182  ls
+  183  bash problema1.sh 
+  184  vim problema1.sh
+  185  ls
+  186  vim problema1.sh
+  187  ls
+  188  tail
+  189  vim problema1.sh
+  190  ls
+  191  vim problema1.sh
+  192  clear
+  193  ls
+  194  tree
+  195  vim problema1.sh
+  196  fg
+  197  vim problema1.sh
+  198  bash problema1.sh 
+  199  tree
+  200  cd ..
+  201  ls
+  202  cd ..
+  203  cd problemas/
+  204  ls
+  205  cd problema2
+  206  ls
+  207  cd ..
+  208  ls
+  209  cd ejercicios/
+  210  ls
+  211  cd
+  212  cd /home/LXS2_byron/LXS2_byron/
+  213  ls
+  214  cd proyectos/
+  215  ls
+  216  cd proyecto2
+  217  ls
+  218  cd ejercicios/
+  219  ls
+  220  cd problema1/
+  221  ls
+  222  tree
+  223  clear
+  224  tree
+  225  bash problema1.sh 
+  226  cd /
+  227  gi status
+  228  git status
+  229  cd ../../
+  230  ls
+  231  cd home/
+  232  cd LXS2_byron/
+  233  git init
+  234  git pull
+  235  git pull origin master
+  236  cd ..
+  237  git init
+  238  cd LXS2_byron/
+  239  git init
+  240  clear
+  241  git push
+  242  git remote --global user.name byron
+  243  git remote --global user.name =  byron
+  244  git  --global user.name =  byron
+  245  clear
+  246  git init
+  247  git config remote.origin.url git@bitbucket.org:username/website.git
+  248  git config remote.origin.url https://github.com/Byrons94/LXS2_byron.git
+  249  git init
+  250  git status
+  251  git add LXS2_byron/
+  252  git commit -m "comenzando proyecto 2"
+  253  git status
+  254  clear
+  255  git status
+  256  git add  LXS2_byron/
+  257  git push
+  258  git pull
+  259  git push
+  260  git rm LXS2_byron/
+  261  git rm -r LXS2_byron/
+  262  git push 
+  263  ls
+  264  git rm -r LXS2_byron/
+  265  git commit -m "reparando carpetas"
+  266  git status
+  267  git push
+  268  ls
+  269  cd LXS2_byron/
+  270  ls
+  271  cd ..
+  272  cd proyectos/
+  273  ls
+  274  cd ..
+  275  cd LXS2_byron/
+  276  ls
+  277  cd proyectos/
+  278  ls
+  279  cp proyecto2/ ../../
+  280  cp -r  proyecto2/ ../../
+  281  cd ..
+  282  ls
+  283  mv proyecto2 proyectos
+  284  ls
+  285  rm -f LXS2_byron/
+  286  rm -r LXS2_byron/
+  287  ls
+  288  git add proyectos/
+  289  git commit -m "comenzando proyectos"
+  290  git commit -m "comenzando proyecto2"
+  291  git push
+  292  tree
+  293  rtee
+  294  tree
+  295  pwd
+  296  cd proyectos/
+  297  sudo chown byron proyecto2
+  298  trww
+  299  tree
+  300  cd proyecto2
+  301  ls
+  302  cd problema1/
+  303  ls
+  304  cd hojasDatos/
+  305  sudo -s
+  306  chown byron hojasDatos
+  307  tree
+  308  cd ..
+  309  clear
+  310  tree
+  311  cat problema1/hojasDatos/datos_csv/data-0.csv | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5 }' | head
+  312  cat problema1/hojasDatos/datos_csv/data-0.csv | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5 }' | sed '1,$ s/"//g' | head
+  313  cat problema1/hojasDatos/datos_csv/data-0.csv | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5 }' | sed '1,$ s/"//g' | sed'1 s/date/#date/g' | head
+  314  cat problema1/hojasDatos/datos_csv/data-0.csv | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5 }' | sed '1,$ s/"//g' | sed '1 s/date/#date/g' | head
+  315  ls
+  316  cd problema1/
+  317  ls
+  318  vim problema1.sh 
+  319  bash problema1.sh 
+  320  tree
+  321  gnuplot
+  322  apt-get install gnuploot
+  323  apt-get install gnuplot
+  324  clear
+  325  gnuplot
+  326  ls
+  327  cp hojasDatos/datos_graf/graf-0.dat plot/
+  328  gumplot
+  329  gunplot
+  330  gnuplot
+  331  cd plot/
+  332  gnuplot
+  333  git status
+  334  cd ..
+  335  ls
+  336  cd ..
+  337  ls
+  338  git status
+  339  git add problema1/
+  340  git status
+  341  git commit -m "terminando ejercicio 1  problema a la hora de generar el plot, mensaje dice illegal month"
+  342  git push
+  343  cd problema1/plot/
+  344  gnuplot
+  345  cd plot/
+  346  tree
+  347  chown byron plot/
+  348  sudo chown byron plot/
+  349  tree
+  350  cat plot/graf-0.dat 
+  351  clear
+  352  ls
+  353  tree
+  354  cat plot/graf-0.dat 
+  355  cd plot
+  356  ls
+  357  cd /
+  358  ls
+  359  cd ho
+  360  cd home/
+  361  tree
+  362  clear
+  363  cd LXS2_byron/
+  364  cd proyectos/proyecto2/
+  365  ls
+  366  cd problema1/
+  367  tree
+  368  cat plot/graf-0.dat 
+  369  chown byron plot/graf-0.dat 
+  370  sudo chown byron plot/graf-0.dat 
+  371  tree
+  372  cat plot/graf-0.dat 
+  373  vim plot/graf-0.dat 
+  374  tree
+  375  cd plot/
+  376  fig1.png
+  377  cd ..
+  378  display plot/fig1.png 
+  379  tree
+  380  rm -f plot/fig1.png 
+  381  tree
+  382  display plot/fig1.png 
+  383  display plot/fig2.png 
+  384  display plot/fig1.png 
+  385  1
+  386  history > history/history-$HOSTNAME-`date +%Y%m%d`
