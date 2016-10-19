@@ -45,7 +45,7 @@ for j in `find $CSV_DATA -name "*.csv" | sort -t '\0' -n`
 do
 	
 	echo "Dando formato al archivo $j para generar graficos"
-	cat $j | awk -F "\",\"" 'NR == '$LINEA' { print $COUNTER " " $2 }' > $GRAF_DATA/graf-$COUNTER.dat
+	cat $j | awk -F "\",\"" 'NR == '$LINEA' {print $2 }' > $GRAF_DATA/graf-$COUNTER.dat
 	let COUNTER=COUNTER+1
 
 done 2> $LOG_DATA/error_formating_data.log
@@ -54,14 +54,28 @@ counter_reset #resetea el contador
 
 if [ -a $FULL_DATA/full.dat ]
 then
-	rm $FUL_DATA/full.dat
+	rm $FULL_DATA/full.dat 
 	echo "Archivo full.bat eliminado"
 fi 2> $LOG_DATA/error_delete_full_data.log
 
 
-for k in `find $GRAF_DATA -name "*.dat"`
+for k in `find $GRAF_DATA -name "*.dat" | sort -t '\0' -n`
 do
-	sed '1d' $k >> $FULL_DATA/full.dat
+	cat  $k >> $FULL_DATA/full.dat
 	echo "Procesando archivo $k"
-done 2> $LOG_DATA/error_join_data.log 
+done 2>> $LOG_DATA/error_join_data.log 
 
+
+graficar()
+{
+DATA_GRAF=$FULL_DATA/full.dat
+	gnuplot << EOF 2> $LOG_DATA/error_graf.log
+	set terminal png
+	set output 'fig.png'
+	plot "$DATA_GRAF"  with lines  title "Consumo de Agua"
+EOF
+echo "Graficado con exito"
+}
+
+
+graficar
