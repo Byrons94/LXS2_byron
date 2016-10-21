@@ -101,9 +101,16 @@ format_data_to_graf()
 {
 for k in `find $GRAF_DATA -name "*.dat" | sort -t '\0' -n`
 do
-	cat  $k  >>  $FULL_DATA/full.dat
-	echo "Procesando archivo $k"
+#	echo $MONTH_START " " $MONTH_END
+	#if ( $MONTH_START >= $COUNTER )
+	#then   	
+		cat  $k  >>  $FULL_DATA/full.dat
+		echo "Procesando archivo $k"
+	#fi
+	let COUNTER=COUNTER+1
+
 done 2>> $LOG_DATA/error_join_data.log 
+counter_reset #llamado a funcion
 }
 
 
