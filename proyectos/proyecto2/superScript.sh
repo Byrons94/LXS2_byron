@@ -1,15 +1,14 @@
 #!/bin/bash
 
-#se establece la ruta donde se encuentran los arrchivos .xls
-DATA=./hojasDatos
+#se establece la ruta donde se encuentran los archivos .xls
+DATA=./problema1/hojasDatos
 OUT_DATA=$DATA/datos_csv
 GRAF_DATA=$DATA/datos_graf
 FULL_DATA=$DATA/full_datos
 ERROR_DATA=$DATA/error_log
 
 #validar la existencia de los directorios
-#if [ ! -d $OUT_DATA :] || [ ! -d $GRAF_DATA ] || [ ! -d $FULL_DATA ] || [ ! -d $ERROR_DATA ]
-if  ! -d $OUT_DATA || ! -d $ERROR_DATA 
+if  [ ! -d $OUT_DATA ] || [ ! -d $ERROR_DATA ]
 then
 	mkdir $OUT_DATA
 	mkdir $GRAF_DATA
@@ -61,7 +60,7 @@ graficar()
 	gnuplot << EOF 2> $ERROR_DATA/error.log
 	set xdata time
 	set timefmt "%Y%m%d %H%M"
-	set xrange ["$FMT_BEGIN" : "$FMT_END"]
+	#set xrange ["$FMT_BEGIN" : "$FMT_END"]
 	set format x "$FTM_X_SHOW"
 	set terminal png
 	set output 'fig1.png'

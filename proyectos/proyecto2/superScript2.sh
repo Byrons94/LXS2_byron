@@ -2,7 +2,7 @@
 
 #-------------------------------region variables----------------------------------------------
 #direcctorios que vamos a necesitar
-DATA=./hojasDatos
+DATA=problema2/hojasDatos
 XML_FILES=$DATA/datos_xml
 
 
@@ -17,16 +17,10 @@ FULL_DATA=$DATA/full_data
 DATA_GRAF=$FULL_DATA/full.dat
 
 
-#parametros
-#if  $1 != ""  #&& [ -v $2 ] && [ -v $3 ] #check validation
-#then   
-	EXPENSES_ID=$1
-	MONTH_START=$2
-	MONTH_END=$3
-#else
-#	echo "No se puede continuar sin parametros.."
-#	exit 1
-#fi
+#parametros	
+EXPENSES_ID=$1
+#MONTH_START=$2
+#MONTH_END=$3
 
 #contador
 COUNTER=0
@@ -119,7 +113,7 @@ make_graf()
 {
 	gnuplot << EOF 2> $LOG_DATA/error_graf.log
 	set terminal png
-	set output 'graf.png'
+	set output 'fig2.png'
 	plot "$DATA_GRAF" with linespoints title "$1"
 EOF
 	echo "Graficado con exito"
@@ -176,7 +170,5 @@ format_data_to_graf
 
 title_graf $EXPENSES_ID
 make_graf $TITLE
-
-display "graf.png"
-rm -f "graf.png"
+echo $1
 #------------------------------end region--------------------------------------------------
