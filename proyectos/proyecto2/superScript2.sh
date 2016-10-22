@@ -160,7 +160,6 @@ TITLE=''
 
 #------------------------------region functions calls--------------------------------------
 #llamados a las funciones en orden
-
 validate_directory
 
 convert_xml_to_csv
