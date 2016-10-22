@@ -9,13 +9,12 @@ welcome()
 	echo "Fecha creación:       15/10/2016"
 	echo "Última modificación:  21/10/2016"
 	echo " "
-	echo " "
 }
 
 #menu del ejercicio 1
 display_menu_problem_1()
 {
-
+clear
 while true ; do
 	echo "***************************Ejercicio #1************************"
 	echo "    1)       Generar solución."
@@ -23,7 +22,6 @@ while true ; do
 	echo "    0)       Volver al menú principal."
 	echo "Seleccione una opción: "
 	read -p "" action
-	echo "***************************************************************"	
 
 	case $action in 
 	  "1" ) ./superScript.sh;;
@@ -38,6 +36,7 @@ done
 #menu del ejercicio 2
 display_menu_problem_2()
 {
+clear
 echo "Problema: Generar graficos en gnuplot a partir de archivos .xls,que determinan el uso de lo servicios básicos en una casa compartida por compañeros de universidad, por seis meses"
 echo " "
 while true ; do
@@ -70,14 +69,12 @@ done
 display_main_menu()
 {
 while true; do
-	echo -e " "
 	echo -e "==========================================================="
 	echo -e "                       MENU PRINCIPAL                      "
 	echo -e "==========================================================="
-	echo -e "1)     Abrir ejercicio #1"
-	echo -e "2)     Abrir ejercicio #2"	
-	echo -e "0)     Para salir"
-	echo " "
+	echo -e "  1)   Abrir ejercicio #1"
+	echo -e "  2)   Abrir ejercicio #2"	
+	echo -e "  0)   Para salir"
 	echo -e "Seleccione una opción"
 
 	read -p "" action

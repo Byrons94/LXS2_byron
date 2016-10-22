@@ -2,7 +2,7 @@
 
 #-------------------------------region variables----------------------------------------------
 #direcctorios que vamos a necesitar
-DATA=problema2/hojasDatos
+DATA=./problema2/hojasDatos
 XML_FILES=$DATA/datos_xml
 
 
@@ -53,7 +53,8 @@ fi
 #se recorren los archivos xlm para convertirlos csv
 convert_xml_to_csv()
 {
-for i in `find $XLM_FILES -name '*.xls' | sort -t '\0' -n`
+echo $XML_FILES
+for i in `find $XML_FILES -name '*.xls' | sort -t '\0' -n`
 do	
 	echo "Procesando el archivo $i"
 	sudo xls2csv $i > $CSV_DATA/data-$COUNTER.csv 		
@@ -114,7 +115,7 @@ make_graf()
 	gnuplot << EOF 2> $LOG_DATA/error_graf.log
 	set terminal png
 	set output 'fig2.png'
-	plot "$DATA_GRAF" with linespoints title "$1"
+	plot "$DATA_GRAF" with linespoints title "$1, de Enero a Junio del 2016"
 EOF
 	echo "Graficado con exito"
 }
